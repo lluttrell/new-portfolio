@@ -64,13 +64,9 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Interests</h2>
+            <h2 className="major">Other Interests</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              When I've got time to spare you can catch me participating in one of my many hobbies. Skiing, climbing, cooking, and travelling on my motorcycle are some of my favourites. I also enjoy a good coffee and the occasional craft beer. 
             </p>
             <a href="/#" className="special">
               Learn more
