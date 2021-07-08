@@ -2,13 +2,11 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
 import richjake from '../assets/images/rich_jake.jpg'
 import ngvsimage from '../assets/images/m61.jpg'
+import backflip from '../assets/images/backflip.jpg'
+import keyboard from '../assets/images/keyboard.jpg'
+import inky from '../assets/images/inky.png'
 
 import config from '../../config';
 const IndexPage = () => (
@@ -44,7 +42,7 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic2} alt="" />
+            <img src={keyboard} alt="" />
           </a>
           <div className="content">
             <h2 className="major">What can I do?</h2>
@@ -61,7 +59,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic3} alt="" />
+            <img src={backflip} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Other Interests</h2>
@@ -88,7 +86,7 @@ const IndexPage = () => (
               </a>
               <h3 className="major">NGVS Map</h3>
               <p>
-                NGVS map is a web appication for astronomical data exploration and retrieval.
+                NGVS Map is a web appication for astronomical data exploration and retrieval.
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -96,7 +94,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                <img src={inky} alt="" />
               </a>
               <h3 className="major">Inky.io</h3>
               <p>
@@ -106,37 +104,11 @@ const IndexPage = () => (
                 Learn more
               </a>
             </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
           </section>
           <ul className="actions">
             <li>
-              <a href="/#" className="button">
-                Browse All
+              <a href="http://www.github.com/lluttrell" className="button">
+                Browse All on GitHub
               </a>
             </li>
           </ul>
