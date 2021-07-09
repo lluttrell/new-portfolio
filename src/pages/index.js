@@ -100,7 +100,7 @@ const IndexPage = () => (
               <p>
                 Inky.io is an online multiplayer pictionary-like game.
               </p>
-              <a href="/#" className="special">
+              <a href="/Inky" className="special">
                 Learn more
               </a>
             </article>
