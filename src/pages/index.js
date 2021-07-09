@@ -88,7 +88,7 @@ const IndexPage = () => (
               <p>
                 NGVS Map is a web appication for astronomical data exploration and retrieval.
               </p>
-              <a href="/#" className="special">
+              <a href="/Ngvs" className="special">
                 Learn more
               </a>
             </article>
@@ -99,6 +99,18 @@ const IndexPage = () => (
               <h3 className="major">Inky.io</h3>
               <p>
                 Inky.io is an online multiplayer pictionary-like game.
+              </p>
+              <a href="/#" className="special">
+                Learn more
+              </a>
+            </article>
+            <article>
+              <a href="/#" className="image">
+                <img src={inky} alt="" />
+              </a>
+              <h3 className="major">Alpine Recconosainse</h3>
+              <p>
+                Alpine Recconosainse is a protoype for a mobile AR rock climbing application.
               </p>
               <a href="/#" className="special">
                 Learn more
