@@ -108,11 +108,11 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={inky} alt="" />
               </a>
-              <h3 className="major">Alpine Recconosainse</h3>
+              <h3 className="major">Alpine Reconnaissance</h3>
               <p>
-                Alpine Recconosainse is a protoype for a mobile AR rock climbing application.
+                Alpine Reconnaissance is a protoype for a mobile AR rock climbing application.
               </p>
-              <a href="/#" className="special">
+              <a href="/AlpineRec" className="special">
                 Learn more
               </a>
             </article>
