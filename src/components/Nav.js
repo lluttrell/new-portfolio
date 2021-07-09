@@ -22,9 +22,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/Resume"
             >
-              Generic Page
+              Resume
             </Link>
           </li>
           <li>
@@ -32,9 +32,19 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Elements"
+              to="/Hobbies"
             >
-              Elements
+              Hobbies
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/Ngvs"
+            >
+              NGVS Map
             </Link>
           </li>
         </ul>
